@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "luxon": "^1.11.0",
     "markdown-it": "^8.4.1",
@@ -32,12 +32,17 @@
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "clean-css": "^4.2.1",
+    "elasticlunr": "^0.9.5",
     "eleventy-plugin-image": "^1.0.1",
     "eleventy-plugin-lazyimages": "^1.1.1",
     "html-minifier": "^3.5.21",
     "netlify-cli": "^2.11.19",
     "sharp-cli": "^1.13.1",
-    "uglify-es": "^3.3.9",
-    "elasticlunr": "^0.9.5"
-  }
+    "uglify-es": "^3.3.9"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11.14.0"
+  },
+  "packageManager": "npm@11.14.0"
 }
